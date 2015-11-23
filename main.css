@@ -65,15 +65,22 @@ p {
 }
 
 .button p {
-	color: rgb(239,235,233);
 	font-size: 1.25em;
 	padding: 0;
 }
 
 .container-bar-darkBlue {
 	background-color: rgb(26,38,57);
+	color: rgb(239,235,233);
 	min-width: 100%;
 	padding: 5vh 0;
+	text-align: center;
+}
+
+.container-bar-darkBlue h2 {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 2em;
+	margin-bottom: 1em;
 }
 
 .container-bar-lighterBlue {
@@ -91,6 +98,10 @@ p {
 .container-main {
 	margin: 0 auto;
 	max-width: 960px;
+}
+
+.wide {
+	flex: 1 100%;
 }
 
 .flex-center-column {
