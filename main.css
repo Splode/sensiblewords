@@ -1,0 +1,122 @@
+/* ----------------------------------------------
+Website Name: Sensible Words
+Website URL: www.sensiblewords.com
+Author: Christopher Ian Murphy
+Date: 2015-11-22
+---------------------------------------------- */
+
+/* Colors
+Dark blue: rgb(26,38,57)
+Lighter blue: rgb(62,74,97)
+Cream: rgb(239,235,233)
+---------------------------------------------- */
+
+/* Type
+Primary: Source Sans Pro
+Secondary: Source Serif Pro
+---------------------------------------------- */
+
+/* CSS reset 
+---------------------------------------------- */
+html, body, nav, header, footer, div, section, article, h1, h2, h3, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-color: rgb(239,235,233);
+	color: rgb(26,38,57);
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12px;
+	margin: 0 auto;
+	text-rendering: optimizeLegibility;
+}
+
+main {
+	margin: 0 auto;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: normal;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+	padding: 0 10%;
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: normal;
+	padding: 0 10%;
+}
+
+p {
+	font-size: 1.5em;
+	letter-spacing: .05em;
+	padding: 0 10%;
+}
+
+.button {
+	border: solid rgb(239,235,233) 2px;
+	display: inline-block;
+	padding: 1.5em;
+	width: 25%;
+}
+
+.button p {
+	color: rgb(239,235,233);
+	font-size: 1.25em;
+	padding: 0;
+}
+
+.container-bar-darkBlue {
+	background-color: rgb(26,38,57);
+	min-width: 100%;
+	padding: 5vh 0;
+}
+
+.container-bar-lighterBlue {
+	background-color: rgb(62,74,97);
+	color: rgb(239,235,233);
+	min-width: 100%;
+	padding: 15vh 0;
+}
+
+.container-bar-lighterBlue h1 {
+	font-size: 4em;
+	margin-bottom: .5em;
+}
+
+.container-main {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+.flex-center-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+}
+
+.flex-center-row {
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-between; */
+	justify-content: space-around;
+}
+
+.jumbotron {
+	height: 100vh;
+	position: fixed;
+	max-width: 960px;
+	width: auto;
+}
+
+.scroll {
+	position: absolute;
+	left: 0;
+	top: 100vh;
+	min-width: 100%;
+}
