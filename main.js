@@ -24,6 +24,11 @@ var today = dayNumber;
 var yesterday = today -1;
 var active = 0;
 
+//Ensure yesterday always hits
+if(yesterday < 0) {
+	yesterday = 0;
+}
+
 //Yesterday's Quote
 function getYesterday() {
        $("h1#quote").animate({"opacity": 0}, 500, function() {
