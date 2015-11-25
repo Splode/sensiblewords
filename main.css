@@ -107,7 +107,7 @@ p {
 }
 
 .wide {
-	flex: 1 100%;
+	width: 100%;
 }
 
 .flex-center-column {
@@ -128,7 +128,7 @@ p {
 	height: 100vh;
 	position: fixed;
 	max-width: 960px;
-	width: auto;
+	width: 100%;
 	z-index: -100;
 }
 
