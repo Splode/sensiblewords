@@ -2,7 +2,7 @@
 Website Name: Sensible Words
 Website URL: www.sensiblewords.com
 Author: Christopher Ian Murphy
-Date: 2015-11-22
+Date: 2015-11-24
 ---------------------------------------------- */
 
 /* Colors
@@ -16,8 +16,7 @@ Primary: Source Sans Pro
 Secondary: Source Serif Pro
 ---------------------------------------------- */
 
-/* CSS reset 
----------------------------------------------- */
+/* CSS reset */
 html, body, nav, header, footer, div, section, article, h1, h2, h3, p, a, ul, li {
     margin: 0;
     padding: 0;
@@ -36,6 +35,19 @@ main {
 	margin: 0 auto;
 	padding: 0;
 }
+
+footer {
+	border-top: solid 1px rgb(62,74,97);
+	font-size: .8em;
+	padding: 10vh 0;
+	text-align: center;
+}
+
+footer a {text-decoration: underline;}
+
+footer p {padding-top: 1.5em;}
+
+footer p:first-child {padding-top: 0;}
 
 a {
 	text-decoration: none;
@@ -59,6 +71,7 @@ h2 {
 p {
 	font-size: 1.5em;
 	letter-spacing: .05em;
+	line-height: 1.5em;
 	padding: 0 10%;
 }
 
@@ -73,14 +86,13 @@ p {
 .button p {
 	font-size: 1.25em;
 	padding: 0;
+	text-align: center;
 }
 
 .container-bar-darkBlue {
 	background-color: rgb(26,38,57);
 	color: rgb(239,235,233);
 	min-width: 100%;
-	padding: 5vh 0;
-	text-align: center;
 }
 
 .container-bar-darkBlue h2 {
@@ -93,7 +105,6 @@ p {
 	background-color: rgb(62,74,97);
 	color: rgb(239,235,233);
 	min-width: 100%;
-	padding: 15vh 0;
 }
 
 .container-bar-lighterBlue h1 {
@@ -106,10 +117,6 @@ p {
 	max-width: 960px;
 }
 
-.wide {
-	width: 100%;
-}
-
 .flex-center-column {
 	display: flex;
 	flex-direction: column;
@@ -120,7 +127,6 @@ p {
 .flex-center-row {
 	display: flex;
 	flex-direction: row;
-	/* justify-content: space-between; */
 	justify-content: space-around;
 }
 
@@ -132,12 +138,41 @@ p {
 	z-index: -100;
 }
 
+.panel-buttons {
+	padding: 5vh 0;
+}
+
+.panel-definition {
+	padding: 20vh 0;
+}
+
+.panel-definition h1 {
+	font-size: 4em;
+	margin-bottom: .5em;
+}
+
+.panel-intro {
+	padding: 10vh 0;
+	text-align: center;
+}
+
+.panel-intro h2 {
+	font-family: 'Source Serif Pro', serif;
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+/* Allows main content to scroll over quote */
 .scroll {
 	position: absolute;
 	left: 0;
 	top: 100vh;
 	min-width: 100%;
 	z-index: 100;
+}
+
+.wide {
+	width: 100%;
 }
 
 /* Sweep To Top */
