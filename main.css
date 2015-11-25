@@ -37,6 +37,11 @@ main {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 h1 {
 	font-family: 'Source Serif Pro', serif;
 	font-weight: normal;
@@ -59,6 +64,7 @@ p {
 
 .button {
 	border: solid rgb(239,235,233) 2px;
+	cursor: pointer;
 	display: inline-block;
 	padding: 1.5em;
 	width: 25%;
@@ -123,6 +129,7 @@ p {
 	position: fixed;
 	max-width: 960px;
 	width: auto;
+	z-index: -100;
 }
 
 .scroll {
@@ -130,4 +137,50 @@ p {
 	left: 0;
 	top: 100vh;
 	min-width: 100%;
+	z-index: 100;
+}
+
+/* Sweep To Top */
+.hvr-sweep-to-top {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.hvr-sweep-to-top:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(239,235,233);
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
+  color: rgb(26,38,57);
+}
+
+.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
 }
