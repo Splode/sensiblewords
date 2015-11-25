@@ -8,13 +8,13 @@ var day = Math.floor(diff / oneDay);
 
 // Quote list
 var quotes = [
-	["Quote 1", "Author 1"],
-	["If you have more than three priorities, then you don't have any.", "- Jim Collins"],
-	["Simpflify, simplify, simplify.", "- Henry David Thoreau"],
-	["Quote 4", "Author 4"],
-	["Quote 5", "Author 5"],
-	["Quote 6", "Author 6"],
-	["Quote 7", "Author 7"]
+["If you have more than three priorities, then you don't have any.", "Jim Collins"],
+["Be patient. Nothing worth doing is worth doing quickly. Nothing worth building is worth building in a rush. Nothing of value is formed in a minute.", "Nic Haralambous"],
+["Be the change that you wish to see in the world.", "Mahatma Gandhi"],
+["It is the way one treats his inferiors more than the way he treats his equals which reveals one’s real character.", "Charles Bayard Miliken"],
+["Live as if you were to die tomorrow. Learn as if you were to live forever.", "Mahatma Gandhi"],
+["Far better it is to dare mighty things, to win glorious triumphs, even though checkered by failure, than to take rank with those poor spirits who neither enjoy much nor suffer much, because they live in the gray twilight that knows neither victory nor defeat.", "Theodore Roosevelt"],
+["To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.", "Ralph Waldo Emerson"]
 ];
 
 // Get day of week and convert to number
