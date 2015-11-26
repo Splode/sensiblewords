@@ -4,7 +4,7 @@ var start = new Date(now.getFullYear(), 0, 0);
 var diff = now - start;
 var oneDay = 1000 * 60 * 60 * 24;
 var day = Math.floor(diff / oneDay);
-//alert(day);
+console.log("Today is day number " + day + " out of 365 yeardays.");
 
 // Quote list
 var quotes = [
@@ -51,10 +51,10 @@ function getToday() {
     active = 0;
 }
 
-//alert(quotes[dayNumber][0]);
-//alert(quotes[dayNumber][1]);
-//alert(weekday);
-//alert(dayNumber);
+//console.log(quotes[dayNumber][0]);
+//console.log(quotes[dayNumber][1]);
+console.log("The current date is: " + weekday);
+console.log("Today is day number " + dayNumber + " out of 7 weekdays.");
 
 // Primary jQuery Functions
 $(document).ready(function() {
