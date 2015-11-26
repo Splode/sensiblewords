@@ -63,12 +63,16 @@ $(document).ready(function() {
     $('div#yesterday').click (function() {
         if(active != 1) {
        getYesterday();
+	  $("div#yesterday").addClass("button-active");
+	  $("div#today").removeClass("button-active");
         }
     });
     
     $('div#today').click(function() {
         if(active != 0) {
        getToday();
+	  $("div#today").addClass("button-active");
+	  $("div#yesterday").removeClass("button-active");
         }
     });
 })

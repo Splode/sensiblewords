@@ -89,6 +89,11 @@ p {
 	text-align: center;
 }
 
+.button-active {
+	background: rgb(239,235,233);
+	color: rgb(26,38,57);
+}
+
 .container-bar-darkBlue {
 	background-color: rgb(26,38,57);
 	color: rgb(239,235,233);
