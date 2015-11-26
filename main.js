@@ -31,10 +31,10 @@ if(yesterday < 0) {
 
 //Yesterday's Quote
 function getYesterday() {
-       $("h1#quote").animate({"opacity": 0}, 500, function() {
+       $("h1#quote").animate({"opacity": 0}, 250, function() {
            $("h1#quote").text(quotes[yesterday][0]);
        }).animate({"opacity": 1}, 1000);
-		$("h2#author").animate({"opacity": 0}, 500, function() {
+		$("h2#author").animate({"opacity": 0}, 250, function() {
            $("h2#author").text(quotes[yesterday][1]);
        }).animate({"opacity": 1}, 1000);
     active = 1;
@@ -42,10 +42,10 @@ function getYesterday() {
 
 //Today's Quote
 function getToday() {
-       $("h1#quote").animate({"opacity": 0}, 500, function() {
+       $("h1#quote").animate({"opacity": 0}, 250, function() {
            $("h1#quote").text(quotes[today][0]);
        }).animate({"opacity": 1}, 1000);
-		$("h2#author").animate({"opacity": 0}, 500, function() {
+		$("h2#author").animate({"opacity": 0}, 250, function() {
            $("h2#author").text(quotes[today][1]);
        }).animate({"opacity": 1}, 1000);
     active = 0;
