@@ -56,10 +56,14 @@ function getToday() {
 //alert(weekday);
 //alert(dayNumber);
 
+// Primary jQuery Functions
 $(document).ready(function() {
+	
+	//Establish daily quote
     $("h1#quote").text(quotes[dayNumber][0]);
     $("h2#author").text(quotes[dayNumber][1]);
     
+    // Yesterday button
     $('div#yesterday').click (function() {
         if(active != 1) {
        getYesterday();
@@ -68,6 +72,7 @@ $(document).ready(function() {
         }
     });
     
+    // Today button
     $('div#today').click(function() {
         if(active != 0) {
        getToday();
@@ -75,4 +80,13 @@ $(document).ready(function() {
 	  $("div#yesterday").removeClass("button-active");
         }
     });
+    
+    //smooth scroll
+   $('a').click(function(){
+	$('html, body').animate({
+		scrollTop: $( $(this).attr('href') ).offset().top
+    }, 750);
+    return false;
+	});
+    
 })
