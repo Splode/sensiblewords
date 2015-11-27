@@ -247,3 +247,12 @@ p {
 	
 	.logo:hover {opacity: .5;}
 }
+
+/* Desktop - tall screen */
+@media only screen and (min-height: 1081px) and (min-resolution: 72dpi) {
+	
+	footer {padding: 5vh 0;}
+	
+	.panel-definition {padding: 10vh 0;}
+
+}
