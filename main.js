@@ -64,20 +64,20 @@ $(document).ready(function() {
     $("h2#author").text(quotes[dayNumber][1]);
     
     // Yesterday button
-    $('div#yesterday').click (function() {
+    $('a#yesterday').click (function() {
         if(active != 1) {
        getYesterday();
-	  $("div#yesterday").addClass("button-active");
-	  $("div#today").removeClass("button-active");
+	  $("a#yesterday").addClass("button-active");
+	  $("a#today").removeClass("button-active");
         }
     });
     
     // Today button
-    $('div#today').click(function() {
+    $('a#today').click(function() {
         if(active != 0) {
        getToday();
-	  $("div#today").addClass("button-active");
-	  $("div#yesterday").removeClass("button-active");
+	  $("a#today").addClass("button-active");
+	  $("a#yesterday").removeClass("button-active");
         }
     });
     

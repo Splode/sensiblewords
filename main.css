@@ -81,7 +81,7 @@ p {
 
 .button {
 	border: solid rgb(239,235,233) 2px;
-	cursor: pointer;
+	/* cursor: pointer; */
 	display: inline-block;
 	padding: 1.5em;
 	width: 25%;
@@ -131,6 +131,7 @@ p {
 	flex-direction: column;
 	justify-content: center;
 	height: 100%;
+	position: relative;
 }
 
 .flex-center-row {
@@ -160,6 +161,10 @@ p {
 	padding: 5vh 0;
 }
 
+.panel-buttons a {
+	display: block;
+}
+
 .panel-definition {
 	padding: 20vh 0;
 }
@@ -178,6 +183,13 @@ p {
 	font-family: 'Source Serif Pro', serif;
 	font-size: 2em;
 	margin-bottom: 1em;
+}
+
+.plus {
+	bottom: 10vh;
+	left: 10%;
+	position: absolute;
+	font-size: 1.5em;
 }
 
 /* Allows main content to scroll over quote */
