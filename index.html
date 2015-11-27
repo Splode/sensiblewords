@@ -31,6 +31,35 @@
 		
 	</head>
 	<body>
+		
+		<!-- Facebook SDK -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=527760214071860";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+	
+		<!-- Twitter Widget -->
+		<script>window.twttr = (function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0],
+	    t = window.twttr || {};
+	  if (d.getElementById(id)) return t;
+	  js = d.createElement(s);
+	  js.id = id;
+	  js.src = "https://platform.twitter.com/widgets.js";
+	  fjs.parentNode.insertBefore(js, fjs);
+	 
+	  t._e = [];
+	  t.ready = function(f) {
+	    t._e.push(f);
+	  };
+	 
+	  return t;
+	}(document, "script", "twitter-wjs"));</script>
+	
 	<a id="top"></a>
 		<div class="container-main">
 			<div class="jumbotron">
@@ -81,6 +110,13 @@
 							
 							<p>Powered by joy and the global legacy of shared knowledge.</p>
 							<p>Curated, designed, and built by <a href="http://www.christopherianmurphy.com" target="_blank">Christopher Murphy</a> &copy;2015</p>
+							
+							<div class="flex-center-row social">
+							<div class="fb-share-button" data-href="http://www.sensiblewords.com" data-layout="button">
+							</div>
+							<a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Sensible%20words,%20a%20new%20quote%20everyday%20from%20wise%20minds%20throughout%20the%20ages.">Tweet</a>
+							</div>
+							
 						</div>
 					</footer>
 					

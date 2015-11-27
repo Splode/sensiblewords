@@ -123,6 +123,11 @@ p {
 	max-width: 960px;
 }
 
+.fb-share-button {
+	padding: 0;
+	margin: 0;
+}
+
 .flex-center-column {
 	display: flex;
 	flex-direction: column;
@@ -135,6 +140,7 @@ p {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-content: center;
 }
 
 .jumbotron {
@@ -190,6 +196,11 @@ p {
 	top: 100vh;
 	min-width: 100%;
 	z-index: 100;
+}
+
+.social {
+	margin-top: 3em;
+	padding: 0 15%;
 }
 
 /* Sweep To Top Hover Animations */
