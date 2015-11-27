@@ -261,5 +261,9 @@ p {
 	
 	body {font-size: 10px;}
 	
-	.plus {bottom: 5vh;}
+	.plus {
+		left: 0;
+		position: relative;
+		top: 1em;
+	}
 }
