@@ -81,7 +81,7 @@ p {
 
 .button {
 	border: solid rgb(239,235,233) 2px;
-	cursor: pointer;
+	/* cursor: pointer; */
 	display: inline-block;
 	padding: 1.5em;
 	width: 25%;
@@ -159,6 +159,10 @@ p {
 
 .panel-buttons {
 	padding: 5vh 0;
+}
+
+.panel-buttons a {
+	display: block;
 }
 
 .panel-definition {
