@@ -268,3 +268,11 @@ p {
 	.panel-definition {padding: 10vh 0;}
 
 }
+
+/* Small mobile */
+@media only screen and (max-width: 375px) {
+	
+	body {font-size: 10px;}
+	
+	.plus {bottom: 5vh;}
+}
