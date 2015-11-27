@@ -2,7 +2,7 @@
 Website Name: Sensible Words
 Website URL: www.sensiblewords.com
 Author: Christopher Ian Murphy
-Date: 2015-11-25
+Date: 2015-11-27
 ---------------------------------------------- */
 
 /* Colors
@@ -51,8 +51,6 @@ footer a {
 
 footer p {padding-top: 1.5em;}
 
-/* footer p:first-child {padding-top: 0;} */
-
 a {
 	text-decoration: none;
 	color: inherit;
@@ -81,7 +79,6 @@ p {
 
 .button {
 	border: solid rgb(239,235,233) 2px;
-	/* cursor: pointer; */
 	display: inline-block;
 	padding: 1.5em;
 	width: 25%;
@@ -157,17 +154,11 @@ p {
 	transition: opacity .25s ease-in-out;
 }
 
-.panel-buttons {
-	padding: 5vh 0;
-}
+.panel-buttons {padding: 5vh 0;}
 
-.panel-buttons a {
-	display: block;
-}
+.panel-buttons a {display: block;}
 
-.panel-definition {
-	padding: 20vh 0;
-}
+.panel-definition {padding: 20vh 0;}
 
 .panel-definition h1 {
 	font-size: 3em;
@@ -201,11 +192,7 @@ p {
 	z-index: 100;
 }
 
-.wide {
-	width: 100%;
-}
-
-/* Sweep To Top */
+/* Sweep To Top Hover Animations */
 .hvr-sweep-to-top {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
