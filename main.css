@@ -184,7 +184,8 @@ p {
 
 .plus {
 	bottom: 10vh;
-	left: 10%;
+	left: 4%;
+	padding: 5%;
 	position: absolute;
 	font-size: 1.5em;
 }
@@ -202,6 +203,8 @@ p {
 	margin-top: 3em;
 	padding: 0 15%;
 }
+
+.social p {padding:0;}
 
 /* Sweep To Top Hover Animations */
 .hvr-sweep-to-top {
@@ -256,6 +259,8 @@ p {
 	footer a:hover {opacity: .5;}
 	
 	.logo:hover {opacity: .5;}
+	
+	.plus img:hover{opacity: .5}
 }
 
 /* Desktop - tall screen */
@@ -277,4 +282,6 @@ p {
 		position: relative;
 		top: 1em;
 	}
+	
+	.plus img {padding-left: 5%;}
 }
