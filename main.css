@@ -123,6 +123,11 @@ p {
 	max-width: 960px;
 }
 
+.fb-share-button {
+	padding: 0;
+	margin: 0;
+}
+
 .flex-center-column {
 	display: flex;
 	flex-direction: column;
@@ -135,6 +140,7 @@ p {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	align-content: center;
 }
 
 .jumbotron {
@@ -178,7 +184,8 @@ p {
 
 .plus {
 	bottom: 10vh;
-	left: 10%;
+	left: 4%;
+	padding: 5%;
 	position: absolute;
 	font-size: 1.5em;
 }
@@ -191,6 +198,13 @@ p {
 	min-width: 100%;
 	z-index: 100;
 }
+
+.social {
+	margin-top: 3em;
+	padding: 0 15%;
+}
+
+.social p {padding:0;}
 
 /* Sweep To Top Hover Animations */
 .hvr-sweep-to-top {
@@ -245,6 +259,8 @@ p {
 	footer a:hover {opacity: .5;}
 	
 	.logo:hover {opacity: .5;}
+	
+	.plus img:hover{opacity: .5}
 }
 
 /* Desktop - tall screen */
@@ -266,4 +282,6 @@ p {
 		position: relative;
 		top: 1em;
 	}
+	
+	.plus img {padding-left: 5%;}
 }
