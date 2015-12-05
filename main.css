@@ -182,6 +182,10 @@ p {
 	margin-bottom: 1em;
 }
 
+.panel-intro p + p{
+	margin-top: 1.5em;
+}
+
 .plus {
 	bottom: 10vh;
 	left: 4%;
