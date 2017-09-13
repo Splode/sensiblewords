@@ -264,7 +264,7 @@ var quotes = [
 ["Don't be too timid and squeamish about your actions. All life is an experiment. The more experiments you make the better.", "Ralph Waldo Emerson"],
 ["The best thing about the future is that it comes one day at a time.", "Abraham Lincoln"],
 ["I was born not knowing and have had only a little time to change that here and there.", "Richard Feynman"],
-["The best thing in life aren't things.", "John Ruskin"],
+["The best things in life aren't things.", "John Ruskin"],
 ["What we know matters but who we are matters more.", "Brené Brown"],
 ["The first and most important thing an individual can do is to become an individual again, decontrol himself, train himself as to what is going on and win back as much independent ground for himself as possible.", "William S. Burroughs"],
 ["Doing the best at this moment puts you in the best place for the next moment.", "Oprah Winfrey"],
