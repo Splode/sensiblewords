@@ -4,7 +4,7 @@
 
 With this project, I aimed to create an app that served a quote a day from a curated list of my favorite quotes. It was my first project to use JavaScript for anything beyond simple styling.
 
-See a live demo at http://sensiblewords.com
+See a live demo at http://christopherianmurphy.com/sensiblewords/
 
 ## Features
 - Serves up a new quote everyday.
